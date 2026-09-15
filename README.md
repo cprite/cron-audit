@@ -38,6 +38,8 @@ As a skill:
 
 ```bash
 clawhub install cron-audit
+or
+openclaw skills install @cprite/cron-audit
 ```
 
 Or just the script:
