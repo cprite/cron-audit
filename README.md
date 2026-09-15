@@ -40,8 +40,6 @@ As a skill:
 clawhub install cron-audit
 ```
 
-(ClawHub reserves the `openclaw-` slug prefix, so the skill is published as `cron-audit`.)
-
 Or just the script:
 
 ```bash
