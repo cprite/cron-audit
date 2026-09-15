@@ -1,0 +1,5 @@
+{
+  "_comment": "Default delivery route per agent id, used by --heal to repair jobs whose announce target cannot resolve. Copy to ~/.openclaw/cron-routes.json and replace the ids. A repaired job lands in the agent's home channel and is reported loudly so a human can re-point it.",
+  "main":       { "channel": "discord",  "accountId": "default", "to": "channel:123456789012345678" },
+  "researcher": { "channel": "telegram", "accountId": "default", "to": "-1001234567890" }
+}
