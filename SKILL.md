@@ -1,5 +1,5 @@
 ---
-name: openclaw-cron-audit
+name: cron-audit
 description: Audit OpenClaw cron jobs for failures that stay silent — announce delivery that cannot resolve a recipient (channel "last" in an isolated session, Discord with no "channel:" target), error streaks nobody saw, output or failure alerts that were never delivered, bestEffort muting, jobs without failure alerts, overdue schedules and jobs that never ran. Use when the user asks why a cron job "does nothing", whether scheduled jobs are healthy, wants a cron health check or watchdog, or before re-enabling an old job.
 metadata: {"openclaw": {"emoji": "🧭", "requires": {"bins": ["python3", "openclaw"]}}}
 ---
