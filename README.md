@@ -38,15 +38,12 @@ As a skill:
 
 ```bash
 clawhub install cron-audit
-or
-openclaw skills install @cprite/cron-audit
 ```
 
-Or just the script:
+Or:
 
 ```bash
-git clone https://github.com/cprite/cron-audit
-python3 cron-audit/scripts/cron_audit.py --full
+openclaw skills install @cprite/cron-audit
 ```
 
 ## Usage
