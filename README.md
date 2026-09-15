@@ -45,8 +45,8 @@ clawhub install cron-audit
 Or just the script:
 
 ```bash
-git clone https://github.com/cprite/openclaw-cron-audit
-python3 openclaw-cron-audit/scripts/cron_audit.py --full
+git clone https://github.com/cprite/cron-audit
+python3 cron-audit/scripts/cron_audit.py --full
 ```
 
 ## Usage
